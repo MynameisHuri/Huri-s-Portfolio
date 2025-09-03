@@ -90,3 +90,9 @@ if (textEl) {
   textEl.innerHTML = "";
   typeEffect();
 }
+
+// Initialize AOS after everything else
+AOS.init({
+  duration: 1000,  // animation duration
+  once: true,      // run only once
+});
